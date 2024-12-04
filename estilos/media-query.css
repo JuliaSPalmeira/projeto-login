@@ -21,7 +21,7 @@ grandes telas: acima de 1200px
         height: 290px;
 
         display: flex;
-        flex-direction: row;
+        flex-direction: row nowrap;
     }
 
     section#login > div#imagem {
@@ -45,6 +45,7 @@ grandes telas: acima de 1200px
     section#login {
         width: 950px;
         height: 360px;
+        
     }
 
     section#login > div#imagem {

@@ -78,6 +78,9 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 div.campo > label {
