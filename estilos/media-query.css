@@ -19,6 +19,9 @@ grandes telas: acima de 1200px
     section#login {
         width: 80vw;
         height: 290px;
+
+        display: flex;
+        flex-direction: row;
     }
 
     section#login > div#imagem {
