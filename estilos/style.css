@@ -45,6 +45,10 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 section#login > div#imagem {
@@ -79,6 +83,7 @@ form > div.campo {
     border-radius: 8px;
     margin: 5px 0px;
 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -120,10 +125,18 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
 form >  input[type=submit]:hover {
     background-color: #57476e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form > a.botao {
